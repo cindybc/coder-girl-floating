@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Ejercicio</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
@@ -17,26 +18,25 @@
 		</ul>
 	</div>
 </header> 
-<section>
-	<div>
-		<img src="assets/img/home.jpg">
-		<h1>CHICAS QUE CAMBIAN EL MUNDO</h1>
-		<p>¡Participa en nuestras actividades</p>
-		<button>Inscribete</button>
+<section id= "cambiarMundo">
+	<div id= "textoCentral">
+		<h1 class="chicas">CHICAS QUE CAMBIAN EL MUNDO</h1>
+		<p>¡Participa en nuestras actividades!</p>
+		<input type="submit" id="boton" value="Inscribete" onclick="cambioFrase()">
 
 	</div>
 </section>
-<section>
-	<img src="assets/img/hackathon.jpg">
-	<h2>HACKATON</h2>
+<section class="hacka">
+	<img id="imagen" src="assets/img/hackathon.jpg">
+	<h1 class="tituloHack">HACKATON</h1>
 	<p>¡Participa en nuestra hackaton "Love is Respect"!</p>
-	<p>Idea soluciones a las problematicas  que te presentaremos, rodeadas de chicas tan geneales como tu. Nos reuniremnos el 30 de septiembre desde las 10 am.</p>
-	<button>Hackathon</button>
+	<p>Idea soluciones a las problematicas  que te presentaremos, rodeadas de chicas tan geniales como tu. Nos reuniremnos el 30 de septiembre desde las 10 am.</p>
+	<input type="submit"  id= "evento" value="Hackathon" onclick="float()">
 </section>
 <section>
-	<img src="assets/img/made_with_code.jpg">
+	<img  id= "contactImage" src="assets/img/made_with_code.jpg">
 	<div>
-		<h2>CONTACTO</h2>
+		<h1 class="tituloContacto">CONTACTO</h1>
 		<form>
 		  <p><b>Code Girls</b></p>
 		  <p>795 Folsom Ave, suite 600</p>
@@ -46,17 +46,18 @@
 				<input type="text" name="name" id="name" placeholder="Nombre" />
 			</div>
 			<div>
-				<input type="email" name="mail" id="mail" placeholder="Email" /" />
+				<input type="email" name="mail" id="mail" placeholder="Email"/>
 			</div>	
             <div>
-				<input type="text" name="asunto" id="asunto" placeholder="Asunto" />
+				<input type="text" name="asunto" id="asunto" placeholder="Asunto"/>
 			</div>		
 			<div>
 				<textarea cols="40" rows="8" name="textarea" id="textarea" placeholder="Mensaje"></textarea>
 			</div>
 			<div>
-				<input type="submit" value="Enviar"/>
+				<input  type= "submit" value="Enviar"  id ="formu" />
 			</div>
+			<div id="validacion"></div>
 		</form>
 	</div>
 </section>

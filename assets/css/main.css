@@ -1,0 +1,111 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+h2{
+	float: left;
+	margin: 10px;
+	color:  #92928B;  
+}
+
+
+ul{
+	list-style: 0;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+}
+
+ul li{
+	display: inline-block;
+	float: right;
+}
+
+ul li a{
+    display: inline-block;
+	color: #014978;
+	text-align: center;
+	padding: 28px;
+	text-decoration: none;
+}
+
+#cambiarMundo{
+	background-image: url(../img/home.jpg);
+	width: 100%;
+	height: 500px;
+	
+}
+
+.chicas{
+	color: white;
+}
+
+#textoCentral{
+	text-align: center;
+	clear: both;
+	padding-top: 150px;
+
+
+}
+
+#boton, #evento, #formu{
+	border-radius: 4px;
+    color: white;
+    background-color: #096BAA;
+    border:none;
+    height: 35px;
+}
+
+.hacka{
+	background-color: #F7F300;
+	margin-bottom: 100px;
+	margin-top: 30px;
+	height: 500px;
+	padding-right: 60px;
+	padding-left: 40px;
+}
+
+#imagen, #contactImage{
+
+	height: 340px;
+	margin: 50px;
+	float: left;
+	margin-top: 90px;
+}
+
+.tituloHack, #tituloContacto{
+	padding-top: 100px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+input[type="text"], input[type="email"]{
+	border-radius: 5px;
+    margin: 10px;
+    height: 20px;
+    width: 25%;
+}
+
+textarea{
+	border-radius: 5px;
+	margin: 10px;
+}
+
+footer{
+	margin-top: 40px;
+    background-color: #2196F3;
+    padding: 20px;
+}
+
+#validacion{
+	float: right;
+    padding: 10px;
+    border-radius: 4px;
+    color: red;
+}
+
+span{
+	color: yellow;
+}
